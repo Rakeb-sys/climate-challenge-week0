@@ -88,11 +88,43 @@ Bubble chart:
 Temperature vs Humidity
 Bubble size = precipitation
 
-Outputs
+📁 Outputs
 
 Generated outputs are organized as follows:
 
-📌 Cleaned Data: data/<country>_clean.csv
+📌 Cleaned Data
+data/<country>_clean.csv
+
+⚠️ The data/ directory is excluded from version control via .gitignore.
+
 📊 Visualizations
+
+Stored (optionally) in:
+
+reports/figures/
 📝 Reports
 
+Analysis summaries can be stored in(not currently available):
+
+reports/
+🧪 Running Tests
+
+Run unit tests with:
+
+pytest
+
+Tests are automatically executed in CI via:
+
+.github/workflows/unittests.yml
+
+🤖 Automation Scripts
+
+Scripts in scripts/ can be used for:
+
+Data preprocessing
+Batch execution of analysis
+Pipeline automation
+
+Run a script:
+
+python scripts/<script_name>.py
