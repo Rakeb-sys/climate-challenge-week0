@@ -128,3 +128,6 @@ Pipeline automation
 Run a script:
 
 python scripts/<script_name>.py
+
+🌍 African Climate Insights Dashboard: deployed on Streamlit Community Cloud. 
+To access the dashboard: https://african-climate-insights-dashboard.streamlit.app/
