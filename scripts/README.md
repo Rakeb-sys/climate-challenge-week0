@@ -28,3 +28,6 @@ git checkout -b dashboard-dev
 git add .
 git commit -m "feat: basic Streamlit UI"
 git push origin dashboard-dev
+
+🌍 African Climate Insights Dashboard: deployed on Streamlit Community Cloud.
+To access the dashboard: https://african-climate-insights-dashboard.streamlit.app/
