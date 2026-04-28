@@ -1,9 +1,10 @@
-# Ignore the data directory and all its contents
-data/
+# Ignore datasets
+dataset/
 
-# Ignore all CSV files in any directory
-*.csv
+# Ignore Python cache
+__pycache__/
+*.pyc
 
-# Ignore Jupyter Notebook checkpoints in any directory
-.ipynb_checkpoints/
-**/.ipynb_checkpoints/
+# Ignore virtual environment
+venv/
+.env
